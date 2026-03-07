@@ -2,15 +2,42 @@
 
 <br/>
 
-```ts
-const yash = {
-  role       : "Founder & Full-Stack Engineer",
-  building   : "AltairGO Intelligence — AI-powered travel planning",
-  stack      : ["React 19", "Flask", "Python", "AltairGO Engine", "PostgreSQL", "Redis"],
-  location   : "Nagpur, India 🇮🇳",
-  philosophy : "Ship real data. Let AI polish the language.",
-};
-```
+<div align="center">
+
+### 👋 Hey, I'm Yash
+
+<table>
+<tr>
+<td width="50%">
+
+**🚀 Building**
+> AltairGO Intelligence
+> AI-powered travel planning platform
+
+**📍 Location**
+> Nagpur, India 🇮🇳
+
+</td>
+<td width="50%">
+
+**🛠️ Stack**
+> React 19 · Flask · Python
+> AltairGO Engine · PostgreSQL · Redis
+
+**💡 Philosophy**
+> *"Ship real data. Let AI polish the language."*
+
+</td>
+</tr>
+</table>
+
+![](https://img.shields.io/badge/Role-Founder%20%26%20Full--Stack%20Engineer-4C8EDC?style=flat-square)
+&nbsp;
+![](https://img.shields.io/badge/Status-Actively%20Building-22c55e?style=flat-square)
+&nbsp;
+![](https://img.shields.io/badge/Open%20To-Collabs%20%26%20Internships-f59e0b?style=flat-square)
+
+</div>
 
 <br/>
 
