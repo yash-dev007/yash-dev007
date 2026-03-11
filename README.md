@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=200&section=header&text=Yash%20Patil&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Founder%20%C2%B7%20Full-Stack%20Engineer%20%C2%B7%20Nagpur%2C%20India&descAlignY=58&descSize=16&descColor=aac8f0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=200&section=header&text=Yash%20Patil&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Founder%20%C2%B7%20Full-Stack%20Engineer%20%C2%B7%20Nashik%2C%20India&descAlignY=58&descSize=16&descColor=aac8f0" width="100%"/>
 
 <br/>
 
@@ -15,7 +15,7 @@
 > AI-powered travel planning platform
 
 **📍 Location**
-> Nagpur, India 🇮🇳
+> Nashik, India 🇮🇳
 
 </td>
 <td width="50%">
