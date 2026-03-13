@@ -1,41 +1,17 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=200&section=header&text=Yash%20Patil&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Founder%20%C2%B7%20Full-Stack%20Engineer%20%C2%B7%20Nashik%2C%20India&descAlignY=58&descSize=16&descColor=aac8f0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=220&section=header&text=Yash%20Patil&fontSize=70&fontColor=ffffff&fontAlignY=40&desc=Building%20AltairGO%20Intelligence%20%C2%B7%20Learning%20Data%20Science%20%C2%B7%20Nashik%2C%20India&descAlignY=60&descSize=15&descColor=aac8f0" width="100%"/>
 
 <br/>
 
 <div align="center">
 
-### 👋 Hey, I'm Yash
 
-<table>
-<tr>
-<td width="50%">
-
-**🚀 Building**
-> AltairGO Intelligence
-> AI-powered travel planning platform
-
-**📍 Location**
-> Nashik, India 🇮🇳
-
-</td>
-<td width="50%">
-
-**🛠️ Stack**
-> React 19 · Flask · Python
-> AltairGO Engine · PostgreSQL · Redis
-
-**💡 Philosophy**
-> *"Ship real data. Let AI polish the language."*
-
-</td>
-</tr>
-</table>
-
-![](https://img.shields.io/badge/Role-Founder%20%26%20Full--Stack%20Engineer-4C8EDC?style=flat-square)
+![Role](https://img.shields.io/badge/Role-Student%20%26%20Builder-4C8EDC?style=flat-square)
 &nbsp;
-![](https://img.shields.io/badge/Status-Actively%20Building-22c55e?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Actively%20Building-22c55e?style=flat-square)
 &nbsp;
-![](https://img.shields.io/badge/Open%20To-Collabs%20%26%20Internships-f59e0b?style=flat-square)
+![Open To](https://img.shields.io/badge/Open%20To-Collabs%20%26%20Internships-f59e0b?style=flat-square)
+&nbsp;
+![Location](https://img.shields.io/badge/📍-Nashik%2C%20India-ef4444?style=flat-square)
 
 </div>
 
@@ -43,42 +19,56 @@
 
 ---
 
-## 🛫 &nbsp;What I'm Building
+## 🚀 &nbsp;What I'm Building
 
-### **[AltairGO Intelligence](https://github.com/yash-dev007/AltairGo-Intelligence)**
-> *AI-powered travel platform — hyper-personalized, budget-accurate, day-by-day itineraries*
+### **[AltairGO Intelligence](https://github.com/yash-dev007/AltairGo-Intelligence)** — AI Travel Planning Platform
 
-**The problem with every AI travel app:** LLMs hallucinate costs, invent attraction names, and produce geographically random routes.
+> *Most AI travel apps hallucinate costs, invent attraction names, and produce geographically random routes. I'm fixing that.*
 
-**My solution:** A **deterministic 5-phase engine** where real scraped data is the foundation — Gemini 2.0 only polishes the language on top. It never touches costs, coordinates, or timings.
+AltairGO is a full-stack travel platform that uses **Google Gemini 2.0** to generate hyper-personalized, budget-accurate, day-by-day itineraries — grounded in real destination data, not LLM guesswork.
 
 ```
-React 19 (Vite) ──────► Flask Backend (8 Blueprints)
-     │                         │
-     │                    ┌────┴─────┐
-     │                    ▼          ▼
-     │          AltairGO Engine  SQLite/PostgreSQL
-     │          (5-Phase Core)   (11 SQLAlchemy Models)
-     │                    │
-     │              ┌─────┴──────┐
-     │              ▼            ▼
-     │        Image Pipeline   OSM / Overpass
-     │        (5-source chain)  (POI Discovery)
-     │
-     └── JWT Auth · Drag-and-Drop · Leaflet Maps · Affiliate Links
+React 19 (Vite 7) ──► Flask Backend (8 Blueprints) ──► SQLite / PostgreSQL
+                              │
+              ┌───────────────┼────────────────┐
+              ▼               ▼                ▼
+       Gemini 2.0         Image Pipeline    OSM / Overpass
+    (Structured JSON)    (5-source chain)  (POI Discovery)
+              │
+    ┌─────────┴──────────┐
+    ▼                    ▼
+ ItineraryValidator   AffiliateEngine
+ (budget · quality)   (click → revenue)
 ```
 
-**The 5-phase engine at a glance:**
+**What makes it different:**
 
-| Phase | Module | What it does |
-|---|---|---|
-| 1 | `filter_engine.py` | Budget · traveler type · seasonal score · popularity floor |
-| 2 | `cluster_engine.py` | H3 hex grouping — ~5km radius per day, zero backtracking |
-| 3 | `budget_allocator.py` | Real hotel prices from OTA APIs, tier-demotion fallback |
-| 4 | `route_optimizer.py` | Haversine ordering, sunrise-first, timestamps per activity |
-| 5 | `assembler.py` | Complete structured JSON — LLM only rewrites 4 text fields |
+| Problem | My Solution |
+|---|---|
+| LLMs hallucinate costs | `ItineraryValidator` auto-scales overbudget plans ±5% tolerance |
+| Generic attraction names | Regex-based quality checks catch lazy AI output |
+| No real images | 5-source pipeline: Cache → Wikipedia → Wikidata → Pexels → SVG |
+| Pure LLM routing | OSM/Overpass POI discovery with relevance scoring algorithm |
+| Black-box output | Gemini forced into structured JSON via Pydantic `responseSchema` |
 
-**Result: ±40% budget error (pure LLM) → ±8% (engine-grounded)**
+**Stack:** React 19 · Flask · Gemini 2.0 · SQLAlchemy · Flask-JWT · Leaflet · Framer Motion · dnd-kit · Pydantic
+
+<br/>
+
+---
+
+## 📚 &nbsp;Currently Learning
+
+```python
+my_journey = {
+    "foundation":   ["Python ✅", "Data Structures", "OOP"],
+    "data_science": ["NumPy", "Pandas", "Matplotlib", "Sklearn  ← here"],
+    "frontend":     ["React 19 ✅", "CSS Modules", "Vite"],
+    "building":     ["AltairGO Intelligence  ← shipping in parallel"],
+}
+```
+
+> I don't wait until I'm "ready." I build while I learn — every bug in AltairGO has taught me more than any tutorial.
 
 <br/>
 
@@ -88,6 +78,8 @@ React 19 (Vite) ──────► Flask Backend (8 Blueprints)
 
 <div align="center">
 
+**Frontend**
+
 ![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 &nbsp;
 ![Vite](https://img.shields.io/badge/Vite_7-646CFF?style=flat-square&logo=vite&logoColor=white)
@@ -96,21 +88,41 @@ React 19 (Vite) ──────► Flask Backend (8 Blueprints)
 &nbsp;
 ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
 &nbsp;
+![CSS Modules](https://img.shields.io/badge/CSS_Modules-000000?style=flat-square&logo=css3&logoColor=1572B6)
+
+**Backend & AI**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 &nbsp;
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 &nbsp;
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-&nbsp;
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-&nbsp;
-![AltairGO Engine](https://img.shields.io/badge/AltairGO_Engine-0a0d14?style=flat-square&logo=rocket&logoColor=4C8EDC)
+![Gemini](https://img.shields.io/badge/Google_Gemini_2.0-4285F4?style=flat-square&logo=google&logoColor=white)
 &nbsp;
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
 &nbsp;
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+
+**Data & DevOps**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+&nbsp;
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white)
+&nbsp;
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
 &nbsp;
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+&nbsp;
+![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=flat-square&logo=gunicorn&logoColor=white)
+
+**Learning Next**
+
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+&nbsp;
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+&nbsp;
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+&nbsp;
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 </div>
 
@@ -143,13 +155,13 @@ React 19 (Vite) ──────► Flask Backend (8 Blueprints)
 
 ---
 
-## 🌱 &nbsp;Currently
+## 🔥 &nbsp;What's Next for AltairGO
 
-- 🔨 &nbsp;Migrating AltairGO from pure LLM → **deterministic data engine** (5 phases)
-- 🗄️ &nbsp;Building OSM ingestion pipeline covering **80+ Indian cities**
-- 📡 &nbsp;Integrating **Booking.com + Skyscanner** affiliate APIs for real-time pricing
-- 🧠 &nbsp;Shipping **5-agent QA layer** — structure · pacing · geography · cost · content
-- 🚀 &nbsp;Deploying on **Vercel** (frontend) + **Gunicorn** (Flask backend)
+- 🗄️ &nbsp;OSM data ingestion pipeline covering **80+ Indian cities**
+- 📡 &nbsp;Real-time pricing via **Booking.com + Skyscanner** affiliate APIs
+- 🧠 &nbsp;**5-agent QA layer** — structure · pacing · geography · cost · content
+- 📊 &nbsp;Applying data science learnings to **destination ranking models**
+- 🚀 &nbsp;Public launch on **Vercel + Gunicorn**
 
 <br/>
 
@@ -165,14 +177,12 @@ React 19 (Vite) ──────► Flask Backend (8 Blueprints)
 &nbsp;
 [![AltairGO](https://img.shields.io/badge/AltairGO_Intelligence-View_Project-4C8EDC?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/yash-dev007/AltairGo-Intelligence)
 
-</div>
-
 <br/>
-
-<div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=yash-dev007&color=4C8EDC&style=flat-square&label=Profile+Views" alt="Profile Views"/>
 
 </div>
+
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=120&section=footer" width="100%"/>
