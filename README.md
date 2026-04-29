@@ -162,7 +162,6 @@ my_journey = {
 - 🗄️ &nbsp;OSM data ingestion pipeline covering **80+ Indian cities**
 - 📡 &nbsp;Real-time pricing via **Booking.com + Skyscanner** affiliate APIs
 - 🧠 &nbsp;**5-agent QA layer** — structure · pacing · geography · cost · content
-- 📊 &nbsp;Applying data science learnings to **destination ranking models**
 - 🚀 &nbsp;Public launch on **Vercel + Gunicorn**
 
 <br/>
