@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=220&section=header&text=Yash%20Patil&fontSize=70&fontColor=ffffff&fontAlignY=40&desc=Building%20AltairGO%20Intelligence%20%C2%B7%20Learning%20Data%20Science%20%C2%B7%20Nashik%2C%20India&descAlignY=60&descSize=15&descColor=aac8f0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,0,30&height=220&section=header&text=Yash%20Patil&fontSize=70&fontColor=ffffff&fontAlignY=40&desc=Building%20AltairGO%20Intelligence%20%C2%B7%20Learning%20Data%20Science%20%C2%B7%20Nashik%2C%20India&descAlignY=60&descSize=15&descColor=aac8f0" width="100%"/>
 
 <br/>
 
@@ -186,4 +186,4 @@ my_journey = {
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,30&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,0,30&height=120&section=footer" width="100%"/>
