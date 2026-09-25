@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,0,30&height=220&section=header&text=Yash%20Patil&fontSize=70&fontColor=ffffff&fontAlignY=40&desc=Building%20things%20that%20shouldn%27t%20exist%20yet%20%C2%B7%20Nashik%2C%20India&descAlignY=62&descSize=15&descColor=aac8f0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a5f,100:2563eb&height=220&section=header&text=Yash%20Patil&fontSize=70&fontColor=ffffff&fontAlignY=38&desc=Building%20systems%20%7C%20Exploring%20AI%20%7C%20Shipping%20ideas&descAlignY=60&descSize=16&descColor=bfdbfe" width="100%"/>
 
 <div align="center">
 
