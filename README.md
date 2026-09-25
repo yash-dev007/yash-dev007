@@ -192,4 +192,4 @@ my_journey = {
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,0,30&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,50:1e3a5f,100:0f172a&height=120&section=footer" width="100%"/>
